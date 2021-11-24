@@ -8,7 +8,6 @@ import LoginForm from './components/LoginForm'
 import { ALL_PERSONS } from './queries'
 
 const Notify = ({ errorMessage }) => {
-  console.log("Test")
   if (!errorMessage) {
     return null
   }
