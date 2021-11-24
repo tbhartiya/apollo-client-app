@@ -18,7 +18,7 @@ const LoginForm = ({ setError, setToken }) => {
       setToken(token)
       localStorage.setItem('phonenumbers-user-token', token)
     }
-  }, [result.data]) // eslint-disable-line
+  }, [result.data]) // eslint-disable-line testing git push
 
   const submit = async (event) => {
     event.preventDefault()
